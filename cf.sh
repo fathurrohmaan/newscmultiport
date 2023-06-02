@@ -18,7 +18,7 @@ apt install jq curl -y
 DOMAIN=friendvps.my.id
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c6)
 SUB_DOMAIN=${sub}.friendvps.my.id
-CF_ID=ralzikri21@gmail.com
+CF_ID=afibadritamam@gmail.com
 CF_KEY=ebdaf7136ace30fe9c57e957b93dab34f455e
 set -euo pipefail
 IP=$(wget -qO- ipinfo.io/ip);
