@@ -1,10 +1,10 @@
 #!/bin/sh
 REPOS="https://github.com/fathurrohmaan/newscmultiport/raw/main/"
 ns_domain_cloudflare() {
-	DOMAIN="friendvps.my.id"
+	DOMAIN="fathurrohman.my.id"
 	DOMAIN_PATH=$(cat /etc/xray/domain)
 	SUB=$(tr </dev/urandom -dc a-z0-9 | head -c7)
-	SUB_DOMAIN=${SUB}."friendvps.my.id"
+	SUB_DOMAIN=${SUB}."fathurrohman.my.id"
 	NS_DOMAIN=dns.${SUB_DOMAIN}
 	CF_ID=afibadritamam@gmail.com
         CF_KEY=ebdaf7136ace30fe9c57e957b93dab34f455e
