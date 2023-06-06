@@ -15,9 +15,9 @@ off='\x1b[m'
 
 clear
 apt install jq curl -y
-DOMAIN=friendvps.my.id
+DOMAIN=fathurrohman.my.id
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c6)
-SUB_DOMAIN=${sub}.friendvps.my.id
+SUB_DOMAIN=${sub}.fathurrohman.my.id
 CF_ID=afibadritamam@gmail.com
 CF_KEY=ebdaf7136ace30fe9c57e957b93dab34f455e
 set -euo pipefail
