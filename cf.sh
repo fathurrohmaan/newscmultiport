@@ -19,7 +19,7 @@ DOMAIN=fathurrohman.my.id
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c6)
 SUB_DOMAIN=${sub}.fathurrohman.my.id
 CF_ID=afibadritamam@gmail.com
-CF_KEY=ebdaf7136ace30fe9c57e957b93dab34f455e
+CF_KEY= 0eabc317e2996181080c32cd628ae9341c3b6
 set -euo pipefail
 IP=$(wget -qO- ipinfo.io/ip);
 echo "Updating DNS for ${SUB_DOMAIN}..."
